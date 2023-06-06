@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Company Website Form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="main-container">
  <header>
     <img src="logo-design-49572.png" alt="" >
     <p>Account Form Center</p>
@@ -12,16 +16,31 @@
  </header>
   <div id="contact-info">
     <h3>Contact Information <span>[all fields are required]</span></h3>
-  <form id="companyForm" action="https://formspree.io/your-email@example.com" method="POST" enctype="multipart/form-data">
+  <form id="companyForm" action="https://formspree.io/f/xjvdqvrk" method="POST">
+    <div class="form-container">
+      <span>
     <label for="first-name">First Name:</label>
-    <input type="text" id="first-name" name="name" placeholder="First Name" required>
+    <input type="text" id="first-name" name="name" placeholder="First Name" required >
+    </span>
     <br>
+
+
+    <span>
     <label for="last-name">Last Name:</label>
     <input type="text" id="last-name" name="name" placeholder="Last Name" required>
+    </span>
     <br>
-    <label for="age">Age:</label>
+
+
+    <span>
+       
+    <label for="age">Age: </label>
     <input type="number" id="age" name="age" placeholder="Age" required>
+    </span>
     <br>
+
+    <span>
+
     <label for="gender">Gender:</label>
     <select id="gender" name="gender" required>
       <option value="male">Male</option>
@@ -29,39 +48,68 @@
       <option value="other">Other</option>
 
     </select>
+    </span>
     <br>
-    <label for="e-mail"> E-mail</label>
-    <input type="email" id="e-mail" placeholder="E-mail@domain.com" required>
 
+    <span>
+    <label for="e-mail"> E-mail</label>
+    <input type="e-mail" id="e-mail" placeholder="E-mail@domain.com" required>
+    </span>
       <br>
 
+     <span>
     <label for="sccn">SCCN Number:</label>
     <input type="text" id="sccn" name="sccn" required>
+    </span> 
     <br>
 
-
+    <span>
     <label for="street-number"> Street-Number</label>
     <input type="text" name="street-number" id="street-number" placeholder="Street-Number" required>
-
+    </span>
+    
     <br>
-
+    
+    <span>
     <label for="zip">ZIP</label>
     <input type="text" name="zip" id="zip" placeholder="Your Zip code">
-
-    <br>
     
+  </span>
+    <!-- <br>
+ 
+    <span>
     <label for="Passport-one">Passport Image 1:</label>
     <input type="file" id="Passport-one" name="image1" required accept="image/*">
-    <br>
-    <label for="Passport-two">Passport Image 2:</label>
-    <input type="file" id="Passport-two" name="image2" required accept="image/*">
+    </span>
     
     <br>
-
+    <span>
+    <label for="Passport-two">Passport Image 2:</label>
+    <input type="file" id="Passport-two" name="image2" required accept="image/*">
+  </span> -->
+  </div> 
+    <br>
+   
     <input type="submit" value="Submit" id="submit">
+    <div id="ball">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
   </form>
 </div>
-
+<footer>
+  <h2> CFO|<span> Cash Flow option </span></h2>
+  <p> Questions or need help?
+    <img src="" alt="">
+    <br>
+      <p>or e-mail us at example@domain.com</p>
+      <h4>PNG Secure area </h4>
+  </p>
+  <div id="line"></div>
+</footer>
+</div>
   <script src="jackbox.js">
         </script>
         </body>
