@@ -54,7 +54,7 @@ function submittedForm(){
         })
         .catch(error => {
           // Display an error message if there was a problem with the form submission
-          alert('An error occurred. Please try again later.');
+          alert('An error occurred. Please check your internet connection.');
         });
       });
 
